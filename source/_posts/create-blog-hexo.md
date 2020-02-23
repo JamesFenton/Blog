@@ -21,9 +21,9 @@ There are many options available, including:
 [Hexo](https://hexo.io/) is a [static site generator](https://davidwalsh.name/introduction-static-site-generators) that allows you to create a blog by simply writing your posts as [Markdown](https://en.wikipedia.org/wiki/Markdown) instead of HTML. The approach makes your blog much easier to write and host.
 
 ## Why a Static Site Generator?
-If your blog is going to be somewhat simple, and you are familiar with the command line and yaml configuration, then a static site generator will suit you well. 
+If your blog is going to be somewhat simple, and you are familiar with the command line, then a static site generator will suit you well. 
 
-Static site generators allow you to write your posts in Markdown. The site then gets built, which transforms your Markdown files into HTML. The end result is a folder with HTML and JavaScript files. This folder can simply be copied to any web server, which means you can host your site with a number of different providers, for much cheaper then a Wordpress site (because Wordpress requires a SQL database), with far fewer security concerns.
+Static site generators allow you to write your posts in Markdown. The site then gets built, which transforms your Markdown files into HTML. The end result is a folder with HTML and JavaScript files (static files). This folder can simply be copied to any web server, which means you can host your site with a number of different providers, for much cheaper then a Wordpress site (because Wordpress requires a SQL database), with far fewer security concerns.
 
 ## Why Hexo?
 There are a lot of static site generators out there, many used by very large companies very successfully. I wanted something that was simple to use out of the box. [Jekyll](https://jekyllrb.com/) is one of the most popular, and a great option. The problem is that it runs on the Ruby programming lanaguage, and the experience on Windows can be imperfect.
