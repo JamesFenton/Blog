@@ -9,8 +9,10 @@ This is a series of posts on how I created my blog with [Hexo](https://hexo.io) 
 
 - {% post_link create-blog-hexo %}
 
-## Introduction
-So you want to start writing a simple blog? There are many options available, including: 
+---
+## So you want to start writing a simple blog? 
+
+There are many options available, including: 
 
 - Wordpress or similar (content management system)
 - Hosted service like Squarespace or Medium
@@ -21,7 +23,7 @@ So you want to start writing a simple blog? There are many options available, in
 ## Why a Static Site Generator?
 If your blog is going to be somewhat simple, and you are familiar with the command line and yaml configuration, then a static site generator will suit you well. 
 
-Static site generators allow you to write your posts in Markdown. The site then gets built, which transforms your Markdown files into HTML. The end result is a folder with HTML and JavaScript files. This folder can simply be copied to any web server, which means you can host your site with a number of different providers, for much cheaper then a Wordpress site (because Wordpress uses a SQL database), with far fewer security concerns.
+Static site generators allow you to write your posts in Markdown. The site then gets built, which transforms your Markdown files into HTML. The end result is a folder with HTML and JavaScript files. This folder can simply be copied to any web server, which means you can host your site with a number of different providers, for much cheaper then a Wordpress site (because Wordpress requires a SQL database), with far fewer security concerns.
 
 ## Why Hexo?
 There are a lot of static site generators out there, many used by very large companies very successfully. I wanted something that was simple to use out of the box. [Jekyll](https://jekyllrb.com/) is one of the most popular, and a great option. The problem is that it runs on the Ruby programming lanaguage, and the experience on Windows can be imperfect.
@@ -76,3 +78,6 @@ npm install hexo-browsersync --save
 ```
 
 Restart hexo with `hexo server`. Now when you make changes and save a file, your browser will automatically refresh. This will make writing posts much easier.
+
+## Summary
+We have setup a basic Hexo blog that we can run on our machine. The next steps are to deploy our blog and customize the theme.
