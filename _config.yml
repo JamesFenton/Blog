@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: James Fenton
+subtitle: Thoughts of a C# developer
+description: C#, Azure, ASP.NET Core
+keywords: C#,dotnet,.Net,Azure,ASP.NET,ASP.NET Core
+author:
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://james.fenton.xyz
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -94,6 +94,13 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+# overriding the theme settings from next/_config.yml
+theme_config:
+  scheme: Gemini
+
+  codeblock:
+    highlight_theme: night
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
