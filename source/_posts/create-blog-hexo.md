@@ -56,7 +56,7 @@ You will now have a folder called MyNewBlog that contains a few files and folder
 
 ### Configure the site
 
-Now you will have a folder with a _config.yml file that stores all the settings for your site, and a source/_posts folder that contains your posts in Markdown. Now to edit the _config.yml file. I changed all the settings in the `# Site` section and `url`.
+Now to edit the _config.yml file to personalise the site. I changed all the settings in the `# Site` section and `url`.
 
 ### Running the site
 To run your site, run
